@@ -1,14 +1,21 @@
-实验中对比并尝试了多种方案：
+由于实验中数据量非常有限，所以对比并尝试了多种划分数据集方案：
 
 最终版本run_model_final中， 按时间步顺序：
 
-测试集：7 个连续时间步
-
-训练集：22 个连续时间步（取中间段）
-
+测试集：7 个连续时间步  
+训练集：22 个连续时间步（取中间段）  
 验证集：8 个连续时间步
 
 这样做的目的是同时保证模型能学到完整生长周期的中段特征
+
+Due to the very limited amount of data in the experiment, several dataset partitioning schemes were compared and tried:
+
+In the final version `run_model_final`, the time step order is as follows:  
+Test set: 7 consecutive time steps  
+Training set: 22 consecutive time steps (taking the middle segment)  
+Validation set: 8 consecutive time steps  
+
+The purpose of this is to ensure that the model can learn the middle segment features of the complete growth cycle simultaneously.
 
  <img width="573" height="385" alt="image" src="https://github.com/user-attachments/assets/534618f5-570a-4ba7-84ca-469066715039" />
 
