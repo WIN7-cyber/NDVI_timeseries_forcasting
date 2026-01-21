@@ -1,3 +1,13 @@
+1. Run traitement_ndvidata.ipynb: Linearly interpolate the NDVI data to obtain a regular time series with uniform time-step intervals.ndvi_precombine.nc:（time, y, x）
+
+2. Run traitement_weatherdata.ipynb: The weather data are aggregated using averaging or summation and then aligned with the NDVI time steps (e.g., every 3 days, 5 days, or 16 days). If weather conditions vary across locations, the corresponding weather values are assigned to each pixel according to its predefined region. weather_precombine.nc
+
+3. Run Combine.ipynb: Store the aligned data in a single file(combine.nc), then preprocess it into the model’s required input format.(in folder: data/arrays)
+
+4. Run run_model_final
+
+
+
 由于实验中数据量非常有限，所以对比并尝试了多种划分数据集方案：
 
 最终版本run_model_final中， 按时间步顺序：
