@@ -1,10 +1,12 @@
-1. Run `traitement_ndvidata.ipynb`: Linearly interpolate the NDVI data to obtain a regular time series with uniform time-step intervals.`ndvi_precombine.nc`:（time, y, x）
+Part NDVI timeseries forcasting(Yingqi WU), in folder ndvi_timeseries_forcasting:
 
-2. Run `traitement_weatherdata.ipynb`: The weather data are aggregated using averaging or summation and then aligned with the NDVI time steps (e.g., every 3 days, 5 days, or 16 days). If weather conditions vary across locations, the corresponding weather values are assigned to each pixel according to its predefined region. `weather_precombine.nc`
+1. Run data/`traitement_ndvidata.ipynb`: Linearly interpolate the NDVI data to obtain a regular time series with uniform time-step intervals.`ndvi_precombine.nc`:（time, y, x）
 
-3. Run `Combine.ipynb`: Store the aligned data in a single file(`combine.nc`), then preprocess it into the model’s required input format.(in folder: data/arrays)
+2. Run data/`traitement_weatherdata.ipynb`: The weather data are aggregated using averaging or summation and then aligned with the NDVI time steps (e.g., every 3 days, 5 days, or 16 days). If weather conditions vary across locations, the corresponding weather values are assigned to each pixel according to its predefined region. `weather_precombine.nc`
 
-4. Run `run_model_final`
+3. Run data/`Combine.ipynb`: Store the aligned data in a single file(`combine.nc`), then preprocess it into the model’s required input format.(in folder: data/arrays)
+
+4. Run conlstm/`run_model_final`
 
 
 
