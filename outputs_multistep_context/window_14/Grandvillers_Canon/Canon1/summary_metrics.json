@@ -1,0 +1,13 @@
+{
+  "region": "Grandvillers_Canon",
+  "probe": "Canon1",
+  "window": 14,
+  "horizon": 7,
+  "test_overall_metrics": {
+    "MAE": 0.8945023417472839,
+    "RMSE": 1.8171545267105103,
+    "MAPE_%": 4.272459074854851
+  },
+  "last_date": "2025-08-28",
+  "forecast_start": "2025-08-29"
+}

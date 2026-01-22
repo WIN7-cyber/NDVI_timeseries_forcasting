@@ -1,0 +1,13 @@
+{
+  "region": "Grandvillers_Robot",
+  "probe": "Canon3",
+  "window": 14,
+  "horizon": 7,
+  "test_overall_metrics": {
+    "MAE": 0.09624499082565308,
+    "RMSE": 0.11461731046438217,
+    "MAPE_%": 0.3510509617626667
+  },
+  "last_date": "2025-08-27",
+  "forecast_start": "2025-08-28"
+}

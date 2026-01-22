@@ -1,0 +1,14 @@
+{
+  "region": "Grandvillers_Robot_20",
+  "probe_name": "Robot-20",
+  "window": 30,
+  "horizon": 1,
+  "n_rows": 113,
+  "n_train_samples": 49,
+  "n_val_samples": 16,
+  "n_test_samples": 4,
+  "filters": 16,
+  "dropout": 0.2,
+  "MAE_t+1": 1.0600004196166992,
+  "RMSE_t+1": 1.0613023042678833
+}

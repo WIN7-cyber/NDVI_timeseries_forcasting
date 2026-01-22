@@ -1,0 +1,18 @@
+{
+  "MAE_t+1": 0.18861882388591766,
+  "RMSE_t+1": 0.25927722454071045,
+  "MAE_t+7": 0.09124326705932617,
+  "RMSE_t+7": 0.11792398244142532,
+  "MAE_avg": 0.2369002252817154,
+  "RMSE_avg": 0.2705494133489473,
+  "region": "Grandvillers_Robot",
+  "probe_name": "Robot",
+  "window": 30,
+  "horizon": 7,
+  "n_rows": 115,
+  "n_train_samples": 44,
+  "n_val_samples": 11,
+  "n_test_samples": 12,
+  "filters": 16,
+  "dropout": 0.2
+}

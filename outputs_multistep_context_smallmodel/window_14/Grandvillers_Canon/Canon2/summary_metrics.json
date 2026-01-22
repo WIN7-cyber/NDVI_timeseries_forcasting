@@ -1,0 +1,18 @@
+{
+  "MAE_t+1": 0.12697362899780273,
+  "RMSE_t+1": 0.13490641117095947,
+  "MAE_t+7": 0.342153400182724,
+  "RMSE_t+7": 0.3472122848033905,
+  "MAE_avg": 0.26305460929870605,
+  "RMSE_avg": 0.27137580301080433,
+  "region": "Grandvillers_Canon",
+  "probe_name": "Canon2",
+  "window": 14,
+  "horizon": 7,
+  "n_rows": 115,
+  "n_train_samples": 60,
+  "n_val_samples": 11,
+  "n_test_samples": 12,
+  "filters": 16,
+  "dropout": 0.2
+}

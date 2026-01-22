@@ -1,0 +1,14 @@
+{
+  "region": "Grandvillers_Canon",
+  "probe_name": "Canon2",
+  "window": 30,
+  "horizon": 1,
+  "n_rows": 115,
+  "n_train_samples": 50,
+  "n_val_samples": 17,
+  "n_test_samples": 5,
+  "filters": 16,
+  "dropout": 0.2,
+  "MAE_t+1": 0.04272956773638725,
+  "RMSE_t+1": 0.04839658737182617
+}

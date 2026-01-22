@@ -1,0 +1,18 @@
+{
+  "MAE_t+1": 1.1214724779129028,
+  "RMSE_t+1": 1.1295746564865112,
+  "MAE_t+7": 1.6031967401504517,
+  "RMSE_t+7": 1.6105455160140991,
+  "MAE_avg": 1.2468292713165283,
+  "RMSE_avg": 1.2511143003191267,
+  "region": "Grandvillers_Sec",
+  "probe_name": "Sec",
+  "window": 14,
+  "horizon": 7,
+  "n_rows": 115,
+  "n_train_samples": 60,
+  "n_val_samples": 11,
+  "n_test_samples": 12,
+  "filters": 16,
+  "dropout": 0.2
+}
